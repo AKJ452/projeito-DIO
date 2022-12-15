@@ -1,0 +1,10 @@
+Comandos básicos do Git:
+Openssl sha1= "arquivo.txt": Gera um código criptografado do arquivo, denominado sha1.
+Echo 'conteudo'| git hash-object --stdin: Cria um blob
+Echo -e 'blob9\0conteudo'| openssl sha1: Acessa o blob criado, contudo, antes, informando seus metadados e seu tamanho, com isso gerando o mesmo código.
+Mkdir: Comando que cria pastas no Git.
+Git add: adiciona o arquivo ao estágio.
+Git commit: cria uma commit apontando o arquivo.
+Git status: Mostra os dados da pasta, ou arquivo.
+Git config --list: Mostra todas as configurações do Git, como nome de usuário, email, e tals...
+Git config --global user.('name', 'email', ...) "nome", "email", ...: Altera os dados configurados.
